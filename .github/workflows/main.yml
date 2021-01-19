@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: amonshiz/hello-world-javascript-action@v1
+        uses: amonshiz/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Andrew'
       - name: Get the output time
